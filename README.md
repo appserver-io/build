@@ -4,15 +4,15 @@
 
 This library provides generic ANT build- and deployment targets useful to build libraries for appserver.io.
 
-The targets are mostly used for enabling continous integration with Travis-CI. The following targets are
-provied out-of-the-box with a default configuration:
+The targets are mostly used for enabling continuous integration with Travis-CI. The following targets are
+provided out-of-the-box with a default configuration:
 
 * clean (Deletes the directory with the generated artefacts)
 * prepare (Prepares the directory to temporarily store generated artefacts)
 * copy (Copies the sources to the temporary directory)
 * deploy (Copies the sources to the deploy directory)
 * phpdoc (Generates the API documentation using PHPDocumentor)
-* pdepend (Runs the PHPDepend tool and generats a graphs)
+* pdepend (Runs the PHPDepend tool and generates a graph)
 * phpcpd (Runs the copy and paste detection)
 * phpcs (Runs the code sniffer and generates a report)
 * phploc (Generate phploc.csv)
@@ -25,7 +25,7 @@ generated directory.
 
 ## Installation
 
-If you want to install the generic build- and deployment targets to use with your library, you do this by add
+If you want to install the generic build- and deployment targets to use with your library, you do this by adding
 
 ```sh
 {
@@ -35,7 +35,7 @@ If you want to install the generic build- and deployment targets to use with you
 }
 ```
 
-to your ```composer.json``` and invoke ```composer update``` in your project.
+to your ```composer.json``` and by invoking ```composer update``` in your project.
 
 ## Usage
 
