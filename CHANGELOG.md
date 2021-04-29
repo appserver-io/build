@@ -1,3 +1,13 @@
+# Version 3.0.0
+
+## Features
+
+* Fixed composer conflicts for phpdocumentor/phpdocumentor dependency
+
+## Bugfixes
+
+* None
+
 # Version 2.0.0
 
 ## Features
